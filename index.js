@@ -10,7 +10,9 @@
 //     return Math.floor(Math.random()*3);
 // }
 
-
+$(document).keydown({
+    
+});
 
 var colorList = ['red', 'blue', 'green','yellow'];
 var sequence = [];
@@ -58,5 +60,16 @@ function checkuserInput(randomColor){
 //     appendColor();
 //     checkUserInput();
 // }
-rColor = getRandomColor();
+
+// driver code
+
+$(document).keypress(function (){
+    $('footer').text(getRandomColor());
+    $('button').attr("id", )
+})
+// rColor = getRandomColor();
 checkuserInput(rColor);
+
+
+
+
